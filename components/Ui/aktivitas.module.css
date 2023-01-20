@@ -1,0 +1,27 @@
+.aktivitasCard {
+  padding: 15px 25px;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+.aktivitasCard ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.aktivitasCard li {
+  margin-bottom: 10px;
+}
+
+.aktivitasCard li:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .aktivitasCard {
+    padding: 40px 40px;
+    margin: 15px 0;
+    border: 3px solid black;
+  }
+}

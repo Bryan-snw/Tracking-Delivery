@@ -1,0 +1,28 @@
+.statusCard{
+  background-color: #3B4E9D;
+  color: white;
+  padding: 15px 25px;
+  border: solid 1px #3B4E9D;
+  margin: 10px 0
+}
+
+
+.status{
+  margin: 0;
+}
+
+
+@media only screen and (min-width: 768px){
+
+  .statusCard{
+    padding: 25px 40px;
+    margin: 15px 0;
+    border: solid 3px #3B4E9D;
+  }
+
+  
+  .status{
+    font-size: 32px;
+  }
+  
+}

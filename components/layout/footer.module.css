@@ -1,0 +1,74 @@
+.footer {
+  margin-top: 50px;
+  background-color: #506BDD;
+  color: #FFFFFF;
+  padding: 30px 25px
+}
+
+.logo{
+  font-size: 32px;
+  margin-bottom:20px;
+}
+
+.info ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info li{
+  margin-bottom:10px
+}
+
+.info li:last-child{
+  margin-bottom: 20px
+}
+
+.hr{
+  margin: 0 0 20px;
+}
+
+.medsos{
+  margin-bottom: 20px;
+}
+
+.medsos i{
+  font-size: 20px;
+}
+
+.medsos a{
+  margin: 0 1.5%;
+}
+
+.copyright{
+  margin: 0;
+}
+
+
+@media only screen and (min-width: 768px){
+  .footer{
+    padding: 30px 50px;
+    margin-top: 100px;
+  }
+
+  .logo{
+    font-size: 36px;
+    margin-bottom:10px;
+  }
+
+  .info li{
+    font-size: 18px;
+  }
+
+  .medsos i{
+    font-size: 24px;
+  }
+
+  .medsos a{
+    margin: 0 0.5%;
+  }
+
+  .copyright{
+    font-size: 18px;
+  }
+}

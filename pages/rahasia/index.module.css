@@ -1,0 +1,67 @@
+.layout{
+  text-align: center;
+}
+
+.layout h1{
+  margin: 0;
+}
+
+.inputForm{
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.inputForm label{
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.inputForm input{
+  background-color: #D9D9D9;
+  font-size: 16px;
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  padding: 0 10px;
+  border: 0;
+}
+
+.errorMsg{
+  margin: 20px 0 0;
+  color: red;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px){
+  .layout{
+    padding: 0 200px;
+  }
+  
+  .layout h1{
+    font-size: 46px;
+  }
+
+  .inputForm{
+    margin-bottom: 25px;
+  }
+  
+  .inputForm label{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .inputForm input{
+    background-color: #D9D9D9;
+    font-size: 22px;
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    padding: 0 20px;
+    border: 0;
+  }
+
+  .errorMsg{
+    font-size: 20px;
+  }
+}

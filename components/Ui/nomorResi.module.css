@@ -1,0 +1,25 @@
+.resiCard {
+  padding: 15px 25px;
+  margin: 10px 0;
+  border: solid 1px black;
+}
+
+.resi {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px){
+
+  .resiCard{
+    padding: 25px 40px;
+    border: solid 3px black;
+    margin: 15px 0;
+  }
+
+  .resi {
+    font-size: 32px;
+  }
+  
+
+
+}

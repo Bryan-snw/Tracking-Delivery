@@ -2,8 +2,61 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Marmelad";
+}
+
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.9;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout {
+  width: 100%;
+}
+
+.card-shw {
+  border: solid 1px #506bdd;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 30px 25px;
+  margin: 25px 25px;
+  box-shadow: 5px 5px #506cdd;
+}
+
+.card {
+  border: solid 1px #506bdd;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 30px 25px;
+  margin: 25px 25px;
+}
+
+.inputFrm{
+  width: 100%;
+  resize: none;
+  font-size: 16px;
+  background-color: #d9d9d9;
+  padding: 0 10px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 0;
 }
 
 a {
@@ -11,16 +64,66 @@ a {
   text-decoration: none;
 }
 
+.btnPendek {
+  background-color: #506bdd;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+}
+
+.btnPanjang {
+  background-color: #3B9D4B;
+  width: 100%;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+}
+
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@media only screen and (min-width: 768px) {
+  .card-shw {
+    border: solid 3px #506bdd;
+    border-radius: 20px;
+    padding: 50px 40px;
+    margin: 50px 150px;
   }
-  body {
-    color: white;
-    background: black;
+
+  .card {
+    border: solid 3px #506bdd;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 50px 40px;
+    margin: 50px 150px;
+  }
+
+  .btnPendek {
+    margin-top: 25px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 24px;
+  }
+
+  .btnPanjang {
+    padding: 15px 35px;
+    border-radius: 15px;
+    border: 0;
+    font-size: 24px;
+  }
+
+  .inputFrm{
+    font-size: 22px;
+    padding: 0 15px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
   }
 }

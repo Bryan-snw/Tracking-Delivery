@@ -1,0 +1,33 @@
+.bantuan{
+  margin-bottom:0;
+}
+
+.cardInfo{
+  margin-bottom: 20px;
+}
+
+.cardInfo:last-child{
+  margin-bottom: 0;
+}
+
+.title{
+  margin: 0;
+}
+
+.desc{
+  margin: 5px 0;
+}
+
+@media only screen and (min-width: 768px){
+  .cardInfo{
+    margin-bottom: 50px;
+  }
+
+  .title{
+    font-size: 28px
+  }
+  
+  .desc{
+    font-size: 22px;
+  }
+}

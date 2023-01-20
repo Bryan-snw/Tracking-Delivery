@@ -1,0 +1,14 @@
+.layout{
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    .imgHome{
+      width: 480px;
+      height:auto;
+    }
+
+    .layout{
+      margin-bottom: 50px;
+    }
+}

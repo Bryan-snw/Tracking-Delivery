@@ -1,0 +1,30 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  background-color: #506BDD;
+  height: 75px;
+}
+
+.nav{
+  display: flex;
+  margin-left:auto;
+  margin-right: 25px;
+}
+
+.nav a{
+  font-size: 20px;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 768px){
+  .nav{
+    margin-right: 50px;
+  }
+
+  .nav a{
+    font-size: 24px;
+    margin: 20px;
+  }
+}

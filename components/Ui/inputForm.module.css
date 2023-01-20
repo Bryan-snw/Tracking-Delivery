@@ -1,0 +1,106 @@
+.card {
+  border: 1px solid black;
+  padding: 15px 25px;
+  margin: 10px 0;
+}
+
+.card select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.selectWrap {
+  position: relative;
+}
+
+.selectWrap::after {
+  content: "▼";
+  pointer-events: none;
+  font-size: 1rem;
+  top: 0px;
+  right: 15px;
+  position: absolute;
+}
+
+.card label {
+  display: block;
+  font-size: 18px;
+  margin: 15px 0 0;
+}
+
+.card label:first-child {
+  margin: 0;
+}
+
+.card textarea {
+  padding: 10px;
+  height: 100px;
+}
+
+.layout{
+  display: flex;
+  align-items: center;
+}
+
+.labelDiv{
+  width: 30%;
+  height: 100%
+}
+
+.labelDiv label{
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+ }
+ 
+ .labelDiv label:first-child{
+   margin-top: 0;
+  }
+ 
+  .labelDiv label:last-child{
+   margin-top: 30px;
+   margin-bottom: 60px;
+  }
+ 
+ .inputDiv{
+   width: 70%;
+   height: 100%;
+   /* background-color:aqua; */
+ }
+
+@media only screen and (min-width: 768px) {
+  .card {
+    border: 3px solid black;
+    padding: 25px 40px;
+    margin: 15px 0;
+  }
+
+  .card label {
+    font-size: 26px;
+    margin: 15px 0 0;
+  }
+
+  .card h3{
+    font-size: 36px;
+  }
+
+
+  .labelDiv{
+    width: 15%;
+
+  }
+
+  .inputDiv{
+    width: 85%;
+  }
+  
+  .labelDiv label{
+    margin-top: 35px;
+    font-size: 26px;
+   }
+  
+   .labelDiv label:last-child{
+    margin-top: 30px;
+    margin-bottom: 50px;
+   }
+}

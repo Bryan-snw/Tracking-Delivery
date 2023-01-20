@@ -1,0 +1,29 @@
+.aktiv {
+  display: flex;
+  font-size: 16px;
+}
+
+.hari {
+  display: block;
+}
+
+.tanggal {
+  width: 50%;
+  /* margin-right:20%; */
+}
+
+.desc {
+  width: 50%;
+  /* padding-left:10px; */
+}
+
+.jam {
+  display: block;
+  opacity: 60%;
+}
+
+@media only screen and (min-width: 768px) {
+  .aktiv {
+    font-size: 26px;
+  }
+}
